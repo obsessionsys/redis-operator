@@ -4,6 +4,7 @@ go 1.13
 
 require (
 	github.com/go-redis/redis v6.15.9+incompatible
+	github.com/obsessionsys/redis-operator v1.0.0
 	github.com/prometheus/client_golang v1.11.0
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spotahome/kooper v0.7.0

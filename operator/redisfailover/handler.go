@@ -9,12 +9,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
-	"github.com/spotahome/redis-operator/log"
-	"github.com/spotahome/redis-operator/metrics"
-	rfservice "github.com/spotahome/redis-operator/operator/redisfailover/service"
-	"github.com/spotahome/redis-operator/operator/redisfailover/util"
-	"github.com/spotahome/redis-operator/service/k8s"
+	redisfailoverv1 "github.com/obsessionsys/redis-operator/api/redisfailover/v1"
+	"github.com/obsessionsys/redis-operator/log"
+	"github.com/obsessionsys/redis-operator/metrics"
+	rfservice "github.com/obsessionsys/redis-operator/operator/redisfailover/service"
+	"github.com/obsessionsys/redis-operator/operator/redisfailover/util"
+	"github.com/obsessionsys/redis-operator/service/k8s"
 )
 
 const (
