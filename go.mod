@@ -1,4 +1,4 @@
-module github.com/obsessionsys/redis-operator
+module github.com/spotahome/redis-operator
 
 go 1.13
 

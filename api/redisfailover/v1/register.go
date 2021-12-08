@@ -1,9 +1,9 @@
 package v1
 
 import (
-	"github.com/obsessionsys/redis-operator/api/redisfailover"
+	"github.com/spotahome/redis-operator/api/redisfailover"
 
-	apiextensionsv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
+	apiextensionsv1beta1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
@@ -18,7 +18,7 @@ const (
 	RFKind       = "RedisFailover"
 	RFName       = "redisfailover"
 	RFNamePlural = "redisfailovers"
-	RFScope      = apiextensionsv1.NamespaceScoped
+	RFScope      = apiextensionsv1beta1.NamespaceScoped
 )
 
 // SchemeGroupVersion is group version used to register these objects

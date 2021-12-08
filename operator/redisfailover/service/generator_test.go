@@ -11,10 +11,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	redisfailoverv1 "github.com/obsessionsys/redis-operator/api/redisfailover/v1"
-	"github.com/obsessionsys/redis-operator/log"
-	mK8SService "github.com/obsessionsys/redis-operator/mocks/service/k8s"
-	rfservice "github.com/obsessionsys/redis-operator/operator/redisfailover/service"
+	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
+	"github.com/spotahome/redis-operator/log"
+	mK8SService "github.com/spotahome/redis-operator/mocks/service/k8s"
+	rfservice "github.com/spotahome/redis-operator/operator/redisfailover/service"
 )
 
 func TestRedisStatefulSetStorageGeneration(t *testing.T) {

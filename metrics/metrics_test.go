@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/obsessionsys/redis-operator/metrics"
+	"github.com/spotahome/redis-operator/metrics"
 )
 
 func TestPrometheusMetrics(t *testing.T) {
