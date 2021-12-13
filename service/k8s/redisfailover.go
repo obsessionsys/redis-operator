@@ -4,7 +4,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/watch"
 
-	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
+	redisfailoverv1 "github.com/obsessionsys/redis-operator/api/redisfailover/v1"
 	redisfailoverclientset "github.com/spotahome/redis-operator/client/k8s/clientset/versioned"
 	"github.com/spotahome/redis-operator/log"
 )

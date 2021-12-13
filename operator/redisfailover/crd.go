@@ -6,7 +6,7 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/tools/cache"
 
-	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
+	redisfailoverv1 "github.com/obsessionsys/redis-operator/api/redisfailover/v1"
 	"github.com/spotahome/redis-operator/log"
 	"github.com/spotahome/redis-operator/service/k8s"
 )

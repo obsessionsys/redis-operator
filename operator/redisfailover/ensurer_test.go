@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
+	redisfailoverv1 "github.com/obsessionsys/redis-operator/api/redisfailover/v1"
 	"github.com/spotahome/redis-operator/log"
 	"github.com/spotahome/redis-operator/metrics"
 	mRFService "github.com/spotahome/redis-operator/mocks/operator/redisfailover/service"

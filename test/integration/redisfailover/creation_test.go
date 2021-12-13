@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	kmetrics "github.com/spotahome/kooper/monitoring/metrics"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	kmetrics "github.com/yxxhero/kooper/monitoring/metrics"
 	corev1 "k8s.io/api/core/v1"
 	v1 "k8s.io/api/core/v1"
 	apiextensionsclientset "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset"
@@ -20,7 +20,7 @@ import (
 	_ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
 	"k8s.io/client-go/util/homedir"
 
-	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
+	redisfailoverv1 "github.com/obsessionsys/redis-operator/api/redisfailover/v1"
 	redisfailoverclientset "github.com/spotahome/redis-operator/client/k8s/clientset/versioned"
 	"github.com/spotahome/redis-operator/cmd/utils"
 	"github.com/spotahome/redis-operator/log"

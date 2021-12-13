@@ -15,7 +15,7 @@ import (
 
 	"text/template"
 
-	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
+	redisfailoverv1 "github.com/obsessionsys/redis-operator/api/redisfailover/v1"
 	"github.com/spotahome/redis-operator/operator/redisfailover/util"
 )
 
