@@ -11,10 +11,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	redisfailoverv1 "github.com/obsessionsys/redis-operator/api/redisfailover/v1"
-	"github.com/spotahome/redis-operator/log"
-	mK8SService "github.com/spotahome/redis-operator/mocks/service/k8s"
-	mRedisService "github.com/spotahome/redis-operator/mocks/service/redis"
-	rfservice "github.com/spotahome/redis-operator/operator/redisfailover/service"
+	"github.com/obsessionsys/redis-operator/log"
+	mK8SService "github.com/obsessionsys/redis-operator/mocks/service/k8s"
+	mRedisService "github.com/obsessionsys/redis-operator/mocks/service/redis"
+	rfservice "github.com/obsessionsys/redis-operator/operator/redisfailover/service"
 )
 
 func generateRF() *redisfailoverv1.RedisFailover {

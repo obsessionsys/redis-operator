@@ -4,7 +4,7 @@ import (
 	"github.com/yxxhero/kooper/client/crd"
 	apiextensionscli "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset"
 
-	"github.com/spotahome/redis-operator/log"
+	"github.com/obsessionsys/redis-operator/log"
 )
 
 type CRDConf = crd.Conf

@@ -5,8 +5,8 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 
 	redisfailoverv1 "github.com/obsessionsys/redis-operator/api/redisfailover/v1"
-	redisfailoverclientset "github.com/spotahome/redis-operator/client/k8s/clientset/versioned"
-	"github.com/spotahome/redis-operator/log"
+	redisfailoverclientset "github.com/obsessionsys/redis-operator/client/k8s/clientset/versioned"
+	"github.com/obsessionsys/redis-operator/log"
 )
 
 // RedisFailover the RF service that knows how to interact with k8s to get them

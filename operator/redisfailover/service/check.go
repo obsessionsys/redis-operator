@@ -9,9 +9,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 
 	redisfailoverv1 "github.com/obsessionsys/redis-operator/api/redisfailover/v1"
-	"github.com/spotahome/redis-operator/log"
-	"github.com/spotahome/redis-operator/service/k8s"
-	"github.com/spotahome/redis-operator/service/redis"
+	"github.com/obsessionsys/redis-operator/log"
+	"github.com/obsessionsys/redis-operator/service/k8s"
+	"github.com/obsessionsys/redis-operator/service/redis"
 )
 
 // RedisFailoverCheck defines the interface able to check the correct status of a redis failover

@@ -34,9 +34,9 @@ type FakeRedisFailovers struct {
 	ns   string
 }
 
-var redisfailoversResource = schema.GroupVersionResource{Group: "databases.spotahome.com", Version: "v1", Resource: "redisfailovers"}
+var redisfailoversResource = schema.GroupVersionResource{Group: "databases.obsessionsys.com", Version: "v1", Resource: "redisfailovers"}
 
-var redisfailoversKind = schema.GroupVersionKind{Group: "databases.spotahome.com", Version: "v1", Kind: "RedisFailover"}
+var redisfailoversKind = schema.GroupVersionKind{Group: "databases.obsessionsys.com", Version: "v1", Kind: "RedisFailover"}
 
 // Get takes name of the redisFailover, and returns the corresponding redisFailover object, and an error if there is any.
 func (c *FakeRedisFailovers) Get(name string, options v1.GetOptions) (result *redisfailover_v1.RedisFailover, err error) {

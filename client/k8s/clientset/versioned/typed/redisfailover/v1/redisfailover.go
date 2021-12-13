@@ -20,7 +20,7 @@ package v1
 
 import (
 	v1 "github.com/obsessionsys/redis-operator/api/redisfailover/v1"
-	scheme "github.com/spotahome/redis-operator/client/k8s/clientset/versioned/scheme"
+	scheme "github.com/obsessionsys/redis-operator/client/k8s/clientset/versioned/scheme"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

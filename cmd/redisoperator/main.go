@@ -13,12 +13,12 @@ import (
 	_ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
 	"k8s.io/client-go/rest"
 
-	"github.com/spotahome/redis-operator/cmd/utils"
-	"github.com/spotahome/redis-operator/log"
-	"github.com/spotahome/redis-operator/metrics"
-	"github.com/spotahome/redis-operator/operator/redisfailover"
-	"github.com/spotahome/redis-operator/service/k8s"
-	"github.com/spotahome/redis-operator/service/redis"
+	"github.com/obsessionsys/redis-operator/cmd/utils"
+	"github.com/obsessionsys/redis-operator/log"
+	"github.com/obsessionsys/redis-operator/metrics"
+	"github.com/obsessionsys/redis-operator/operator/redisfailover"
+	"github.com/obsessionsys/redis-operator/service/k8s"
+	"github.com/obsessionsys/redis-operator/service/redis"
 )
 
 const (
